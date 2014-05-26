@@ -1,0 +1,120 @@
+/* Layout, design, and code is Copyright 2010 micksam7 - me@micksam7.com */
+
+body {
+	background: #313233 url("background.png") repeat-y center;
+	text-align: center;
+	margin: 0px;
+}
+
+div.video {
+	margin: 15px auto 15px auto;
+	behavior:url("img/PIE.htc");
+	background: #000000;
+	margins: 5px;
+	box-shadow: #000000 0px 0px 10px;
+	-webkit-box-shadow: #000000 0px 0px 10px;
+	-moz-box-shadow: #000000 0px 0px 10px;
+}
+
+video.player,object.player,embed.player {
+	margin: none;
+	border: none;
+	padding: none;
+}
+
+div.graybox {
+	font-family: Ariel, sans-serif;
+	text-align: left;
+	color: #FFFFFF;
+	text-shadow: #444444 2px 2px 5px;
+	background: url("50bg.png");
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px; 
+	border-radius: 20px;
+	behavior:url("img/PIE.htc");
+
+	padding: 10px;
+}
+
+div.vidinfo {
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.leftinfo {
+	width: 200px;
+	float: left;
+}
+
+div.rightinfo {
+	width: 200px;
+	float: right;
+}
+
+div.resSelector {
+	font-size: 12px;
+	width: 400px;
+}
+
+a {
+	color: #EEEEEE;
+	font-weight: bold;
+}
+
+a.sil {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+span.info {
+	color: #DDDDDD;
+}
+
+img.back {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: none;
+	z-index: 0;
+}
+
+img.seperator {
+	padding: 15px;
+}
+
+b.title {
+	display: block;
+	text-align: center;
+}
+
+div.right {
+	text-align: right;
+}
+
+div.blankinfo {
+	font-family: Ariel, sans-serif;
+	color: #DDDDDD;
+	font-size: 12px;
+	width: 500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+form {
+	display: inline;
+}
+
+img.bgcurve {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: -500;
+}

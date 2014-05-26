@@ -1,0 +1,20 @@
+/**
+ * Some effect replacements for IE in general
+ *
+ * Adds outlines to the video titles. Just to make them pop a little more.
+ * This is handled by text-shadow on other browsers.
+ *
+ * Layout, design, and code is Copyright 2010 micksam7 - me@micksam7.com
+ */
+ 
+div.vidTitle {
+	filter:progid:DXImageTransform.Microsoft.Glow(Color=black,Strength=1);
+	width: 320px;
+}
+div.vidAuthor {
+	filter:progid:DXImageTransform.Microsoft.Glow(Color=black,Strength=1);
+	width: 320px;
+}
+img.thumb {
+	border-radius: none;
+}

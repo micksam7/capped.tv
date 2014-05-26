@@ -1,0 +1,33 @@
+/**
+ * Small screen CSS.
+ * 
+ * Kills off the info box, puts the search box in the middle block. Disables container hack.
+ *
+ * Layout, design, and code is Copyright 2010 micksam7 - me@micksam7.com
+ */
+
+div.container {
+	width: auto;
+	min-width: 0px;
+}
+
+div.info {
+	display: none;
+}
+
+div.search {
+	float: none;
+	width: 530px;
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input.searchbox {
+	width: 450px;
+}
+
+div.hidemeifnotsmall {
+	display: inherit;
+}

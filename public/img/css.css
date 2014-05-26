@@ -1,0 +1,288 @@
+/* Layout, design, and code is Copyright 2010 micksam7 - me@micksam7.com */
+
+body {
+	background: #313233 url("background.png") repeat-y center;
+	background: url("bgcurve.png") bottom right no-repeat, #313233 url("background.png") repeat-y center;
+	text-align: center;
+	margin: 0px;
+}
+
+img {
+	border: none;
+}
+
+div.container {
+	margin-left:auto;
+	margin-right:auto;
+	width: 85%;
+	min-width: 1024px;
+	max-width: 1280px;
+} 
+
+a {
+	text-decoration: none;
+	border: none;
+	color: #FFFFFF; /* firefox inheritance bug */
+}
+
+img {
+	border: none;
+}
+
+a.link {
+	color: #EEEEEE;
+	text-decoration: underline;
+}
+
+a.link:hover {
+	color: #FFFFFF;
+}
+
+a.link:active {
+	color: #CCCCCC;
+}
+
+div.clipper {
+	overflow: hidden;
+}
+
+div.logo {
+	margin-left:auto;
+	margin-right:auto;
+	width: 770px;
+	overflow: visible;
+}
+
+div.info {
+	font-family: Ariel, sans-serif;
+	float: left;
+	width: 200px;
+	text-align: left;
+	color: #FFFFFF;
+	text-shadow: #000000 2px 2px 5px;
+	background: url("50bg.png");
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px; 
+	border-radius: 20px;
+	behavior:url("img/PIE.htc");
+
+	padding: 10px;
+}
+
+div.search {
+	float: right;
+	width: 200px;
+	text-align: left;
+	color: #FFFFFF;
+	text-shadow: #000000 2px 2px 5px;
+	background: url("50bg.png");
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px; 
+	border-radius: 20px;
+	behavior:url("img/PIE.htc");
+	
+	padding: 10px;
+}
+
+input.searchbox {
+	height: 18px;
+	width: 125px;
+	border: #000000 solid 1px;
+	background: #FFFFFF;
+	-moz-border-radius: 5px 0px 0px 5px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	-khtml-border-radius: 5px 0px 0px 5px; 
+	border-radius: 5px 0px 0px 5px;
+	behavior:url("img/PIE.htc");
+	padding-left: 5px;
+}
+
+input.searchsubmit {
+	height: 22px;
+	width: 60px;
+	border: #000000 solid 1px;
+	margin-left: 5px;
+	color: #EEEEEE;
+	background: url("miniBoxBg.png") #929498;
+	-moz-border-radius: 0px 5px 5px 0px;
+	-webkit-border-radius: 0px 5px 5px 0px;
+	-khtml-border-radius: 0px 5px 5px 0px; 
+	border-radius: 0px 5px 5px 0px;
+	padding-right: 10px;
+}
+
+input.searchsubmit:hover {
+	background: url("miniBoxBgHover.png") #a2a4a8;
+}
+
+h2 {
+	margin: 0px 0px 1pc 0px;
+}
+
+h3 {
+	margin: 1pc 0px 1pc 0px;
+}
+
+div.selectionBackdrop {
+	margin-left:auto;
+	margin-right:auto;
+	width: 570px;
+	height: 40px;
+	background: url("miniboxBackdrop.png") no-repeat;
+	margin-bottom: 20px;
+	background-position: 10px 0px;
+}
+
+div.selection {
+	font-family: Ariel, sans-serif;
+	width: 550px;
+	height: 25px;
+	margin-left: 10px;
+	background: url("miniBoxBg.png") #929498;
+	text-align: center;
+	border: 1px solid #000000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px; 
+	border-radius: 5px;
+	behavior:url("img/PIE.htc");
+	text-shadow: #000000 2px 2px 5px;
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+a.selection {
+	color: #DDDDDD;
+	text-shadow: #000000 2px 2px 5px;
+}
+
+a.selection:hover {
+	color: #FFFFFF;
+}
+
+span.selSep {
+	margin: 0px 15px 0px 15px;
+	width: 2px;
+	color: #5E5F62;
+}
+
+div.vidBackdrop {
+	margin-left:auto;
+	margin-right:auto;
+	width: 570px;
+	height: 150px;
+	background: url("vidboxBackdrop.png") no-repeat;
+	background-position: 10px 0px;
+}
+
+div.vidBox {
+	margin-left: 10px;
+	width: 520px;
+	height: 91px; /* Lines up a bit better visually */
+	background: #848689 url("vidBoxBg.png") repeat-x;
+	padding: 15px;
+	text-shadow: #000 2px 2px 5px, #555 -1px -1px 0px, #555 1px 1px 0px, #555 -1px 1px 0px, #555 1px -1px 0px;
+	border: 1px solid black;
+	text-align: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px; 
+	border-radius: 5px;
+	behavior:url("img/PIE.htc");
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div.vidBox:hover {
+	background: #939598;
+	text-shadow: #333333 2px 2px 5px, #333333 -1px -1px 1px, #333333 1px 1px 1px, #333333 -1px 1px 1px, #333333 1px -1px 1px;
+	cursor: pointer;
+}
+
+div.vidSep {
+	margin: 0px 15px 0px 15px;
+	float: left;
+	width: 2px;
+	background: #5E5F62;
+	height: 100%;
+}
+
+div.vidTitle {
+	font-family: Impact, sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+	white-space: nowrap;
+	width: 320px;
+	float: left;
+	overflow: hidden;
+}
+
+div.vidAuthor {
+	font-family: Impact, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	white-space: nowrap;
+	width: 320px;
+	float: left;
+	overflow: hidden;
+}
+
+div.vidInfo {
+	padding-top: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-shadow: #000000 2px 2px 5px;
+	white-space: nowrap;
+	width: 320px;
+	float: left;
+	overflow: hidden;
+}	
+
+video.thumb,img.thumb {
+	float: left;
+	border: 1px solid black;
+	background: #000000;
+	-moz-border-radius: 5px 0px 0px 5px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	-khtml-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+	behavior:url("img/PIE.htc");
+}
+
+div.arrows {
+	vertical-align: bottom;
+	margin-left:auto;
+	margin-right:auto;
+	width: 750px;
+}
+
+img.arrowright {
+	float: right;
+	position: relative;
+	width: 43px;
+	top: -20px;
+}
+
+img.arrowleft {
+	float: left;
+	position: relative;
+	width: 43px;
+	top: -20px;
+}
+
+div.etc {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #DDDDDD;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+div.hidemeifnotsmall {
+	display: none;
+}

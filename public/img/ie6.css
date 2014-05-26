@@ -1,0 +1,25 @@
+/**
+ * IE 6 Specific CSS
+ *
+ * Forces image to work right.
+ *
+ * Layout, design, and code is Copyright 2010 micksam7 - me@micksam7.com
+ */
+
+img.logo {
+	display: none;
+}
+
+div.logo {
+	height: 231px;
+	width: 800px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='logoshort.png',sizingMethod='scale');
+}
+
+div.selection {
+	margin-left: 5px;
+}
+
+div.vidBox {
+	margin-left: 5px;
+}
